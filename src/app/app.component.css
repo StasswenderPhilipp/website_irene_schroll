@@ -1,0 +1,18 @@
+.home-bar {
+  background: whitesmoke;
+}
+
+#home-bar__link {
+  color: black !important;
+  font-size: 2vw !important;
+}
+
+.nav-bar {
+  background: forestgreen;
+}
+
+.footer {
+  margin-top: auto;
+  background: forestgreen;
+}
+

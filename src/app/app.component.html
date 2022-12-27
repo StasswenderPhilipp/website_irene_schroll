@@ -1,0 +1,49 @@
+<div class="vw-100 vh-100 d-flex flex-column">
+
+  <div class="home-bar">
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a id="home-bar__link" routerLink="/home" class="nav-link active" aria-current="page">Garten- und Landschaftsbau Irene Schroll</a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="nav-bar">
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a routerLink="/home" class="nav-link active" aria-current="page">Startseite</a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="/about-us" class="nav-link">Über mich</a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="/services" class="nav-link">Leistungen</a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="/gallery" class="nav-link">Gallery</a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="/contact" class="nav-link">Kontakt</a>
+      </li>
+    </ul>
+  </div>
+
+  <div>
+    <router-outlet></router-outlet>
+  </div>
+
+  <div class="footer">
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link active">Cookies</a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="/privacy" class="nav-link">Datenschutz</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/credentials">Impressum</a>
+      </li>
+    </ul>
+  </div>
+
+</div>
