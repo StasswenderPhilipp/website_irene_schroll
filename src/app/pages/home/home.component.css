@@ -1,1 +1,26 @@
+img {
+  object-fit: cover;
+}
 
+.carousel-caption {
+  top: 30%;
+  bottom: auto !important;
+}
+
+.primary-button {
+  background: forestgreen;
+  margin-right: 12px;
+}
+
+.service-card {
+  margin: 20px;
+  border: 2px solid forestgreen;
+}
+
+mat-card-title {
+  font-size: 1.5vw;
+}
+
+.service-card__description {
+  color: black !important;
+}

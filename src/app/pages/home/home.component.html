@@ -1,2 +1,73 @@
-<p>Startseite</p>
+<ngb-carousel *ngIf="images">
+  <ng-template ngbSlide>
+    <div class="img-wrapper">
+      <img [src]="images[0]" alt="Random first slide"/>
+    </div>
+    <div class="carousel-caption">
+      <h3>Wie der Gärtner, so der Garten.</h3>
+      <p>Hebräisches Sprichwort</p>
+      <button mat-stroked-button routerLink="/about-us" class="primary-button">Mehr über uns</button>
+      <button mat-stroked-button routerLink="/contact" class="secondary-button">Kontaktiere uns</button>
+    </div>
+  </ng-template>
+  <ng-template ngbSlide>
+    <div class="img-wrapper">
+      <img [src]="images[1]" alt="Random second slide"/>
+    </div>
+    <div class="carousel-caption">
+      <h3>Unkraut ist die Opposition der Natur gegen die Regierung der Gärtner</h3>
+      <p>Oskar Kokoschka - österreichischer Maler und Schriftsteller</p>
+      <button mat-stroked-button routerLink="/services" class="primary-button">Unsere Leistungen</button>
+      <button mat-stroked-button routerLink="/contact" class="secondary-button">Kontaktiere uns</button>
+    </div>
+  </ng-template>
+  <ng-template ngbSlide>
+    <div class="img-wrapper">
+      <img [src]="images[2]" alt="Random third slide"/>
+    </div>
+    <div class="carousel-caption">
+      <h3>Die schönsten Gärten</h3>
+      <p>Eine kleine Auswahl an Gärten, die wir umgesetzt haben</p>
+      <button mat-stroked-button routerLink="/gallery" class="primary-button">Unsere Bilder</button>
+      <button mat-stroked-button routerLink="/contact" class="secondary-button">Kontaktiere uns</button>
+    </div>
+  </ng-template>
+</ngb-carousel>
 
+<div class="d-flex justify-content-center">
+  <mat-card class="service-card">
+    <img mat-card-image [src]="serviceImages[0]" alt="service-consulting">
+    <mat-card-header>
+      <mat-card-title>Beratung</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <p class="service-card__description">
+        In der Beratung geht es um die
+      </p>
+    </mat-card-content>
+  </mat-card>
+
+  <mat-card class="service-card">
+    <img mat-card-image [src]="serviceImages[1]" alt="service-consulting">
+    <mat-card-header>
+      <mat-card-title>Plannung</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <p class="service-card__description">
+        In der Beratung geht es um die
+      </p>
+    </mat-card-content>
+  </mat-card>
+
+  <mat-card class="service-card">
+    <img mat-card-image [src]="serviceImages[2]" alt="service-consulting">
+    <mat-card-header>
+      <mat-card-title>Pflege</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <p class="service-card__description">
+        In der Beratung geht es um die
+      </p>
+    </mat-card-content>
+  </mat-card>
+</div>
