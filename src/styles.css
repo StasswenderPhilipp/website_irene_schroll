@@ -1,25 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
-
 h1 {
-  font-size: 4vw;
+  font-size: 4vw !important;
 }
 
 h2 {
-  font-size: 3vw;
+  font-size: 3vw !important;
 }
 
 h3 {
-  font-size: 2.5vw;
+  font-size: 2.5vw !important;
 }
 
 h4 {
-  font-size: 2vw;
+  font-size: 2vw !important;
 }
 
 h5 {
-  font-size: 1.5vw;
+  font-size: 1.5vw !important;
 }
 
 p {
@@ -28,14 +27,6 @@ p {
 
 a {
   font-size: 1vw !important;
-}
-
-a:hover, a:active {
-  color: yellow !important;
-}
-
-h1, h2, h3, h4, h5, p, a {
-  color: whitesmoke !important;
 }
 
 .secondary-button, .primary-button {

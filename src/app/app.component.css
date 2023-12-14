@@ -2,9 +2,9 @@
   background: whitesmoke;
 }
 
-#home-bar__link {
+h3 {
   color: black !important;
-  font-size: 2vw !important;
+  margin: 0 !important;
 }
 
 .nav-bar {
@@ -16,3 +16,10 @@
   background: forestgreen;
 }
 
+a {
+  color: whitesmoke !important;
+}
+
+a:hover, a:active{
+  color: darkgoldenrod !important;
+}
