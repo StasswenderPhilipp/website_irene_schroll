@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./services.component.css']
 })
 export class ServicesComponent {
-
+  serviceImages = [330, 306, 159, 140, 152, 25].map((n) => `https://picsum.photos/id/${n}/250/150`);
 }

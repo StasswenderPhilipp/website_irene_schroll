@@ -14,6 +14,7 @@ import { CredentialsComponent } from './pages/credentials/credentials.component'
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatButtonModule} from "@angular/material/button";
 import {MatCardModule} from "@angular/material/card";
+import {LightgalleryModule} from "lightgallery/angular";
 
 @NgModule({
   declarations: [
@@ -26,14 +27,15 @@ import {MatCardModule} from "@angular/material/card";
     PrivacyComponent,
     CredentialsComponent
   ],
-  imports: [
-    BrowserModule,
-    NgbModule,
-    AppRoutingModule,
-    BrowserAnimationsModule,
-    MatButtonModule,
-    MatCardModule
-  ],
+    imports: [
+        BrowserModule,
+        NgbModule,
+        AppRoutingModule,
+        BrowserAnimationsModule,
+        MatButtonModule,
+        MatCardModule,
+        LightgalleryModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })

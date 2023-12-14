@@ -1,1 +1,23 @@
-<p>gallery works!</p>
+<lightgallery [onBeforeSlide]="onBeforeSlide" [settings]="settings">
+  <a class="gallery-item"
+     data-responsive="assets/img/garden_home.jpeg"
+     data-src="assets/img/garden_home.jpeg"
+     data-sub-html="<h4>Photo by Garten- und Landschaftsbau Irene Schroll</h4><p>Heimischer Garten</p>">>
+    <img class="img-responsive"
+         src="assets/img/garden_home.jpeg" alt="Heimischer Garten"/>
+  </a>
+  <a class="gallery-item"
+     data-responsive="assets/img/garden_italy.jpg"
+     data-src="assets/img/garden_italy.jpg"
+     data-sub-html="<h4>Photo by Philipp</h4><p>Gartentour in Italien</p>">>
+    <img class="img-responsive"
+         src="assets/img/garden_italy.jpg" alt="Gartentour in Italien"/>
+  </a>
+  <a class="gallery-item"
+     data-responsive="assets/img/garden_thailand.jpg"
+     data-src="assets/img/garden_thailand.jpg"
+     data-sub-html="<h4>Photo by Philipp</h4><p>Garten in Thailand</p>">>
+    <img class="img-responsive"
+         src="assets/img/garden_thailand.jpg" alt="Garten in Thailand"/>
+  </a>
+</lightgallery>
