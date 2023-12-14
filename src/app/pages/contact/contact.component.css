@@ -4,27 +4,22 @@ div {
   justify-content: center;
   align-items: center;
   height: 80vh;
+  padding: 5% 50%;
 }
 
-div > div {
-  margin: 20px;
-}
 div > div:last-child {
   display: flex;
   flex-flow: column;
-  /* align-items: flex-start;*/
   text-align: left;
+  min-width: 500px;
 }
-h5 {
-  color: black !important;
+p {
   width: 60%;
   margin: 15px;
 }
-h5 span {
+p span {
   font-weight: bold;
 }
 a {
   color: blue;
-  text-decoration: underline;
-  font-size: 1.5vw !important;
 }
