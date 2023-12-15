@@ -2,9 +2,14 @@ img {
   object-fit: cover;
 }
 
+.img-wrapper {
+  max-height: 40vh;
+}
+
 .carousel-caption {
-  top: 30%;
+  top: 20%;
   bottom: auto !important;
+  color: whitesmoke;
 }
 
 .primary-button {
@@ -12,11 +17,12 @@ img {
   margin-right: 12px;
 }
 
-.service-card {
+mat-card {
   margin: 20px;
   border: 2px solid forestgreen;
+  cursor: pointer;
 }
 
-mat-card-title {
-  font-size: 1.5vw;
+mat-card > img {
+  max-height: 20vh;
 }
