@@ -5,11 +5,6 @@ div {
   height: 80vh;
   padding: 5% 50%;
 }
-
-.map-container {
-  min-width: 40vw;
-}
-
 .text-container {
   display: flex;
   flex-flow: column;
@@ -26,4 +21,10 @@ p span {
 }
 a {
   color: blue;
+}
+
+.img-responsive {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
 }
