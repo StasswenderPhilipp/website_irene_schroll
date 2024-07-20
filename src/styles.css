@@ -3,33 +3,57 @@ html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 h1 {
   font-size: 4vw !important;
+  @media (max-width: 768px) {
+    font-size: 24px !important;
+  }
 }
 
 h2 {
   font-size: 3vw !important;
+  @media (max-width: 768px) {
+    font-size: 20px !important;
+  }
 }
 
 h3 {
   font-size: 2.5vw !important;
+  @media (max-width: 768px) {
+    font-size: 16px !important;
+  }
 }
 
 h4 {
   font-size: 2vw !important;
+  @media (max-width: 768px) {
+    font-size: 14px !important;
+  }
 }
 
 h5 {
   font-size: 1.5vw !important;
+  @media (max-width: 768px) {
+    font-size: 12px !important;
+  }
 }
 
 p {
   font-size: 1vw;
+  @media (max-width: 768px) {
+    font-size: 10px !important;
+  }
 }
 
 a {
   font-size: 1vw !important;
+  @media (max-width: 768px) {
+    font-size: 10px !important;
+  }
 }
 
 .secondary-button, .primary-button {
   height: 62px !important;
   border-width: 2px !important;
+  @media (max-width: 768px) {
+    display: none !important;
+  }
 }

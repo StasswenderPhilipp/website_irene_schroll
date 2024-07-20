@@ -1,15 +1,19 @@
-div {
+.container {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 80vh;
-  padding: 5% 50%;
+  flex-direction: row;
 }
-.text-container {
+
+.text-container,
+.image-container {
+  width: 50%;
   display: flex;
+  justify-content: center; /* Horizontal zentrieren */
+  align-items: center;
+  margin: 5%;
+}
+
+.text-container {
   flex-flow: column;
-  text-align: left;
-  min-width: 40vw;
 }
 
 p {
@@ -23,8 +27,26 @@ a {
   color: blue;
 }
 
-.img-responsive {
+img{
+  @media (max-width: 768px) {
+    width: 250px;
+    height: 150px;
+  }
+  @media (max-width: 380px) {
+    width: 200px;
+    height: 125px;
+  }
   width: 400px;
   height: 300px;
-  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+  .text-container,
+  .image-container {
+    width: 100%;
+    margin: 5% 0;
+  }
 }

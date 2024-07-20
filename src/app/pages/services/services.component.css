@@ -2,11 +2,17 @@ mat-card {
   margin: 20px;
   border: 2px solid forestgreen;
   max-width: 90%;
-  max-height: 300px;
+  @media (max-width: 360px) {
+    width: 180px;
+  }
 }
 
 img {
   object-fit: cover;
   height: 100%;
   max-width: 20vw;
+  @media (max-width: 360px) {
+    display: none !important;
+  }
 }
+

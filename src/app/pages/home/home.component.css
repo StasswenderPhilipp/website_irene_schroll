@@ -18,9 +18,13 @@ img {
 }
 
 mat-card {
+  width: 25%;
   margin: 20px;
   border: 2px solid forestgreen;
   cursor: pointer;
+  @media (max-width: 768px) {
+      width: 180px
+    }
 }
 
 mat-card > img {
