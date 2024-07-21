@@ -10,6 +10,7 @@
   justify-content: center; /* Horizontal zentrieren */
   align-items: center;
   margin: 5%;
+  flex-flow: column;
 }
 
 img {
