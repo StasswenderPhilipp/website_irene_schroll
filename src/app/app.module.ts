@@ -15,6 +15,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatButtonModule} from "@angular/material/button";
 import {MatCardModule} from "@angular/material/card";
 import {LightgalleryModule} from "lightgallery/angular";
+import { NotFoundComponent } from './pages/not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import {LightgalleryModule} from "lightgallery/angular";
     GalleryComponent,
     ContactComponent,
     PrivacyComponent,
-    CredentialsComponent
+    CredentialsComponent,
+    NotFoundComponent
   ],
     imports: [
         BrowserModule,

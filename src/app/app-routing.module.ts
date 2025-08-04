@@ -7,9 +7,10 @@ import {CredentialsComponent} from "./pages/credentials/credentials.component";
 import {GalleryComponent} from "./pages/gallery/gallery.component";
 import {PrivacyComponent} from "./pages/privacy/privacy.component";
 import {ServicesComponent} from "./pages/services/services.component";
+import { NotFoundComponent } from './pages/not-found/not-found.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/home', pathMatch: 'full' },
+  { path: '', redirectTo: '/home', pathMatch: 'full' }, // Startseite als Standardroute
   { path: 'home', component: HomeComponent },
   { path: 'about-us', component: AboutUsComponent },
   { path: 'contact', component: ContactComponent },
@@ -17,6 +18,7 @@ const routes: Routes = [
   { path: 'gallery', component: GalleryComponent },
   { path: 'privacy', component: PrivacyComponent },
   { path: 'services', component: ServicesComponent },
+  { path: '**', component: NotFoundComponent }, // Fallback-Route am Ende
 ];
 
 @NgModule({
